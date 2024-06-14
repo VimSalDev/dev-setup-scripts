@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd $HOME/Dev
+
 # List of programming languages
 languages=("Java" "Python" "C" "C++" "JS" "Go")
 

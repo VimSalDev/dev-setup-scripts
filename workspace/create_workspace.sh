@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd $HOME/Dev
+cd $HOME
 
 # Create 'Dev' directory if it doesn't exist and navigate to it
 DEV_DIR="Dev"
