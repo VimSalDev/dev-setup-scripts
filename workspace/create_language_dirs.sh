@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Lista de lenguajes de programación
+# List of programming languages
 languages=("Java" "Python" "C" "C++" "JS" "Go")
 
-# Crear subdirectorios para cada lenguaje
+# Create subdirectories for each language
 for lang in "${languages[@]}"; do
     if [ ! -d "$lang" ]; then
         mkdir "$lang"
