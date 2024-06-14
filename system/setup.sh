@@ -2,9 +2,12 @@
 
 chmod +x *.sh
 
+SCRIPT_DIR=$(dirname "$0")
+
 # Run all setup scripts
-./install_prerequisites.sh
-./update_system.sh
+"$SCRIPT_DIR/update_system.sh"
+"$SCRIPT_DIR/install_prerequisites.sh"
+"$SCRIPT_DIR/update_system.sh"
 
 # Final message
 echo "Process completed! all system update"
