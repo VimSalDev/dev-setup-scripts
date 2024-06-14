@@ -2,13 +2,14 @@
 
 chmod +x *.sh
 
+SCRIPT_DIR=$(dirname "$0")
+
 # Run all setup scripts
-./update_system.sh
-./install_git.sh
-./configure_git.sh
-./generate_ssh_key.sh
-./configure_github_ssh.sh
-./install_github_cli.sh
+"$SCRIPT_DIR/install_git.sh"
+"$SCRIPT_DIR/configure_git.sh"
+"$SCRIPT_DIR/generate_ssh_key.sh"
+"$SCRIPT_DIR/configure_github_ssh.sh"
+"$SCRIPT_DIR/install_github_cli.sh"
 
 # Final message
 echo "Process completed! You can now use Git and GitHub CLI with SSH authentication."
