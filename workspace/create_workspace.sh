@@ -1,14 +1,6 @@
 #!/bin/bash
 
-# Check for 'Documents' or 'Documentos' directory and navigate if found
-if [ -d "Documents" ]; then
-    cd Documents
-elif [ -d "Documentos" ]; then
-    cd Documentos
-else
-    echo "Neither 'Documents' nor 'Documentos' directory found."
-    exit 1
-fi
+cd $HOME/Dev
 
 # Create 'Dev' directory if it doesn't exist and navigate to it
 DEV_DIR="Dev"
