@@ -10,6 +10,8 @@ find . -type f -name "*.sh" -exec chmod +x {} \;
 ./system/update_system.sh
 ./languages/setup.sh
 ./system/update_system.sh
+./libraries/cuda-wsl.sh
+./system/update_system.sh
 ./libraries/setup_opencv.sh
 ./system/update_system.sh
 
