@@ -1,5 +1,4 @@
 #!/bin/bash
-
 cd $HOME/Dev
 
 # List of programming languages

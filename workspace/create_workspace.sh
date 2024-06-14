@@ -1,5 +1,4 @@
 #!/bin/bash
-
 cd $HOME
 
 # Create 'Dev' directory if it doesn't exist and navigate to it
