@@ -17,3 +17,4 @@ find . -type f -name "*.sh" -exec chmod +x {} \;
 
 # Final message
 echo "Process completed! dev-setup-script is ready."
+exec bash
