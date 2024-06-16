@@ -19,5 +19,5 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 
 # Display the public key and instruct the user to add it to GitHub
-cat ~/.ssh/id_ed25519.pub
 echo "Copy the SSH key above and add it to your GitHub account."
+cat ~/.ssh/id_ed25519.pub

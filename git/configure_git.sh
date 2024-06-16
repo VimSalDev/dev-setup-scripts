@@ -7,3 +7,5 @@ git config --global user.name "$git_user_name"
 # Ask for the email and save it in a temporary variable
 read -p "Enter your email to configure git: " git_user_email
 git config --global user.email "$git_user_email"
+
+echo "Git configuration completed with name: $git_user_name and email: $git_user_email"

@@ -4,3 +4,4 @@
 
 echo "Installing cmake..."
 sudo apt-get install -y cmake
+echo "CMake installed successfully."

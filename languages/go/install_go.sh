@@ -9,3 +9,4 @@ sudo tar -C /usr/local -xzf "$go_tarball"
 
 # Limpiar el instalador de Go
 rm "$go_tarball"
+

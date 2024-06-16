@@ -1,6 +1,7 @@
 #!/bin/bash
 
-chmod +x *.sh
+# Ensure all setup scripts are executable
+find . -name "*.sh" -exec chmod +x {} \;
 
 SCRIPT_DIR=$(dirname "$0")
 

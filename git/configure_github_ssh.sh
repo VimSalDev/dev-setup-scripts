@@ -15,3 +15,5 @@ ssh -T git@github.com
 
 # Configure Git to use SSH
 echo -e "\n[url \"git@github.com:\"]\n    insteadOf = https://github.com/" >> ~/.gitconfig
+
+echo "GitHub SSH configuration completed."

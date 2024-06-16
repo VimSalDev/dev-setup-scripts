@@ -13,3 +13,4 @@ sudo apt-get update -y
 # Authenticate with GitHub CLI
 gh auth login
 
+echo "GitHub CLI installation and authentication completed."

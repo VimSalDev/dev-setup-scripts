@@ -8,3 +8,5 @@ sudo update-alternatives --config java
 # Configurar JAVA_HOME
 echo "JAVA_HOME=\"/usr/lib/jvm/jdk-${java_version}\"" | sudo tee -a /etc/environment
 source /etc/environment
+
+echo "Java configuration completed successfully."

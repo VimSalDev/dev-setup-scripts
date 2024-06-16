@@ -4,3 +4,5 @@
 
 echo "Installing C and C++ development tools..."
 sudo apt-get install -y build-essential
+
+echo "C and C++ development tools installed successfully."
